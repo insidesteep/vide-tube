@@ -1,0 +1,1459 @@
+App 22796 output: Warning: connect.session() MemoryStore is not
+App 22796 output: designed for a production environment, as it will leak
+App 22796 output: memory, and will not scale past a single process.
+App 22796 output: > CONNECTION DB OK
+App 22796 output: > Ready on https://video.steep.uz:3000
+App 22796 output: FetchError: invalid json response body at https://video.bsmi.uz/api/auth reason: Unexpected token < in JSON at position 0
+App 22796 output:     at /home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:51220
+App 22796 output:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+App 22796 output:     at async Function.MyApp.getInitialProps (/home/steepuz/video.steep.uz/.next/server/pages/_app.js:509:24) {
+App 22796 output:   type: 'invalid-json'
+App 22796 output: }
+App 22796 output: FetchError: invalid json response body at https://video.bsmi.uz/api/videos/home reason: Unexpected token < in JSON at position 0
+App 22796 output:     at /home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:51220
+App 22796 output:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+App 22796 output:     at async getServerSideProps (/home/steepuz/video.steep.uz/.next/server/pages/index.js:303:21)
+App 22796 output:     at async Object.renderToHTML (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/server/render.js:506:20)
+App 22796 output:     at async doRender (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/server/base-server.js:708:34)
+App 22796 output:     at async cacheEntry.responseCache.get.isManualRevalidate.isManualRevalidate (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/server/base-server.js:813:28)
+App 22796 output:     at async /home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/server/response-cache/index.js:80:36 {
+App 22796 output:   type: 'invalid-json'
+App 22796 output: }
+App 22796 output: FetchError: invalid json response body at https://video.bsmi.uz/api/auth reason: Unexpected token < in JSON at position 0
+App 22796 output:     at /home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:51220
+App 22796 output:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+App 22796 output:     at async Function.MyApp.getInitialProps (/home/steepuz/video.steep.uz/.next/server/pages/_app.js:509:24) {
+App 22796 output:   type: 'invalid-json'
+App 22796 output: }
+App 22796 output: ISAUTH false
+App 22796 output: FetchError: invalid json response body at https://video.bsmi.uz/api/auth reason: Unexpected token < in JSON at position 0
+App 22796 output:     at /home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:51220
+App 22796 output:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+App 22796 output:     at async Function.MyApp.getInitialProps (/home/steepuz/video.steep.uz/.next/server/pages/_app.js:509:24) {
+App 22796 output:   type: 'invalid-json'
+App 22796 output: }
+App 22796 output: FetchError: invalid json response body at https://video.bsmi.uz/api/videos/home reason: Unexpected token < in JSON at position 0
+App 22796 output:     at /home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:51220
+App 22796 output:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+App 22796 output:     at async getServerSideProps (/home/steepuz/video.steep.uz/.next/server/pages/index.js:303:21)
+App 22796 output:     at async Object.renderToHTML (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/server/render.js:506:20)
+App 22796 output:     at async doRender (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/server/base-server.js:708:34)
+App 22796 output:     at async cacheEntry.responseCache.get.isManualRevalidate.isManualRevalidate (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/server/base-server.js:813:28)
+App 22796 output:     at async /home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/server/response-cache/index.js:80:36 {
+App 22796 output:   type: 'invalid-json'
+App 22796 output: }
+App 22796 output: FetchError: invalid json response body at https://video.bsmi.uz/api/auth reason: Unexpected token < in JSON at position 0
+App 22796 output:     at /home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:51220
+App 22796 output:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+App 22796 output:     at async Function.MyApp.getInitialProps (/home/steepuz/video.steep.uz/.next/server/pages/_app.js:509:24) {
+App 22796 output:   type: 'invalid-json'
+App 22796 output: }
+App 22796 output: ISAUTH false
+App 22796 output: FetchError: invalid json response body at https://video.bsmi.uz/api/auth reason: Unexpected token < in JSON at position 0
+App 22796 output:     at /home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:51220
+App 22796 output:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+App 22796 output:     at async Function.MyApp.getInitialProps (/home/steepuz/video.steep.uz/.next/server/pages/_app.js:509:24) {
+App 22796 output:   type: 'invalid-json'
+App 22796 output: }
+App 22796 output: FetchError: invalid json response body at https://video.bsmi.uz/api/videos/home reason: Unexpected token < in JSON at position 0
+App 22796 output:     at /home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:51220
+App 22796 output:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+App 22796 output:     at async getServerSideProps (/home/steepuz/video.steep.uz/.next/server/pages/index.js:303:21)
+App 22796 output:     at async Object.renderToHTML (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/server/render.js:506:20)
+App 22796 output:     at async doRender (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/server/base-server.js:708:34)
+App 22796 output:     at async cacheEntry.responseCache.get.isManualRevalidate.isManualRevalidate (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/server/base-server.js:813:28)
+App 22796 output:     at async /home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/server/response-cache/index.js:80:36 {
+App 22796 output:   type: 'invalid-json'
+App 22796 output: }
+App 22796 output: FetchError: invalid json response body at https://video.bsmi.uz/api/auth reason: Unexpected token < in JSON at position 0
+App 22796 output:     at /home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:51220
+App 22796 output:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+App 22796 output:     at async Function.MyApp.getInitialProps (/home/steepuz/video.steep.uz/.next/server/pages/_app.js:509:24) {
+App 22796 output:   type: 'invalid-json'
+App 22796 output: }
+App 22796 output: ISAUTH false
+App 22796 output: FetchError: invalid json response body at https://video.bsmi.uz/api/auth reason: Unexpected token < in JSON at position 0
+App 22796 output:     at /home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:51220
+App 22796 output:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+App 22796 output:     at async Function.MyApp.getInitialProps (/home/steepuz/video.steep.uz/.next/server/pages/_app.js:509:24) {
+App 22796 output:   type: 'invalid-json'
+App 22796 output: }
+App 22796 output: FetchError: invalid json response body at https://video.bsmi.uz/api/videos?page=1 reason: Unexpected token < in JSON at position 0
+App 22796 output:     at /home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:51220
+App 22796 output:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+App 22796 output:     at async getServerSideProps (/home/steepuz/video.steep.uz/.next/server/pages/videos.js:317:18)
+App 22796 output:     at async Object.renderToHTML (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/server/render.js:506:20)
+App 22796 output:     at async doRender (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/server/base-server.js:708:34)
+App 22796 output:     at async cacheEntry.responseCache.get.isManualRevalidate.isManualRevalidate (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/server/base-server.js:813:28)
+App 22796 output:     at async /home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/server/response-cache/index.js:80:36 {
+App 22796 output:   type: 'invalid-json'
+App 22796 output: }
+App 22796 output: FetchError: invalid json response body at https://video.bsmi.uz/api/auth reason: Unexpected token < in JSON at position 0
+App 22796 output:     at /home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:51220
+App 22796 output:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+App 22796 output:     at async Function.MyApp.getInitialProps (/home/steepuz/video.steep.uz/.next/server/pages/_app.js:509:24) {
+App 22796 output:   type: 'invalid-json'
+App 22796 output: }
+App 22796 output: ISAUTH false
+App 22796 output: FetchError: invalid json response body at https://video.bsmi.uz/api/auth reason: Unexpected token < in JSON at position 0
+App 22796 output:     at /home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:51220
+App 22796 output:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+App 22796 output:     at async Function.MyApp.getInitialProps (/home/steepuz/video.steep.uz/.next/server/pages/_app.js:509:24) {
+App 22796 output:   type: 'invalid-json'
+App 22796 output: }
+App 22796 output: FetchError: invalid json response body at https://video.bsmi.uz/api/videos?page=1 reason: Unexpected token < in JSON at position 0
+App 22796 output:     at /home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:51220
+App 22796 output:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+App 22796 output:     at async getServerSideProps (/home/steepuz/video.steep.uz/.next/server/pages/videos.js:317:18)
+App 22796 output:     at async Object.renderToHTML (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/server/render.js:506:20)
+App 22796 output:     at async doRender (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/server/base-server.js:708:34)
+App 22796 output:     at async cacheEntry.responseCache.get.isManualRevalidate.isManualRevalidate (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/server/base-server.js:813:28)
+App 22796 output:     at async /home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/server/response-cache/index.js:80:36 {
+App 22796 output:   type: 'invalid-json'
+App 22796 output: }
+App 22796 output: FetchError: invalid json response body at https://video.bsmi.uz/api/auth reason: Unexpected token < in JSON at position 0
+App 22796 output:     at /home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:51220
+App 22796 output:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+App 22796 output:     at async Function.MyApp.getInitialProps (/home/steepuz/video.steep.uz/.next/server/pages/_app.js:509:24) {
+App 22796 output:   type: 'invalid-json'
+App 22796 output: }
+App 22796 output: ISAUTH false
+App 22796 output: FetchError: invalid json response body at https://video.bsmi.uz/api/auth reason: Unexpected token < in JSON at position 0
+App 22796 output:     at /home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:51220
+App 22796 output:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+App 22796 output:     at async Function.MyApp.getInitialProps (/home/steepuz/video.steep.uz/.next/server/pages/_app.js:509:24) {
+App 22796 output:   type: 'invalid-json'
+App 22796 output: }
+App 22796 output: FetchError: invalid json response body at https://video.bsmi.uz/api/videos/home reason: Unexpected token < in JSON at position 0
+App 22796 output:     at /home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:51220
+App 22796 output:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+App 22796 output:     at async getServerSideProps (/home/steepuz/video.steep.uz/.next/server/pages/index.js:303:21)
+App 22796 output:     at async Object.renderToHTML (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/server/render.js:506:20)
+App 22796 output:     at async doRender (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/server/base-server.js:708:34)
+App 22796 output:     at async cacheEntry.responseCache.get.isManualRevalidate.isManualRevalidate (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/server/base-server.js:813:28)
+App 22796 output:     at async /home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/server/response-cache/index.js:80:36 {
+App 22796 output:   type: 'invalid-json'
+App 22796 output: }
+App 22796 output: FetchError: invalid json response body at https://video.bsmi.uz/api/auth reason: Unexpected token < in JSON at position 0
+App 22796 output:     at /home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:51220
+App 22796 output:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+App 22796 output:     at async Function.MyApp.getInitialProps (/home/steepuz/video.steep.uz/.next/server/pages/_app.js:509:24) {
+App 22796 output:   type: 'invalid-json'
+App 22796 output: }
+App 22796 output: ISAUTH false
+App 22796 output: FetchError: invalid json response body at https://video.bsmi.uz/api/auth reason: Unexpected token < in JSON at position 0
+App 22796 output:     at /home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:51220
+App 22796 output:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+App 22796 output:     at async Function.MyApp.getInitialProps (/home/steepuz/video.steep.uz/.next/server/pages/_app.js:509:24) {
+App 22796 output:   type: 'invalid-json'
+App 22796 output: }
+App 22796 output: FetchError: invalid json response body at https://video.bsmi.uz/api/videos/home reason: Unexpected token < in JSON at position 0
+App 22796 output:     at /home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:51220
+App 22796 output:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+App 22796 output:     at async getServerSideProps (/home/steepuz/video.steep.uz/.next/server/pages/index.js:303:21)
+App 22796 output:     at async Object.renderToHTML (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/server/render.js:506:20)
+App 22796 output:     at async doRender (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/server/base-server.js:708:34)
+App 22796 output:     at async cacheEntry.responseCache.get.isManualRevalidate.isManualRevalidate (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/server/base-server.js:813:28)
+App 22796 output:     at async /home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/server/response-cache/index.js:80:36 {
+App 22796 output:   type: 'invalid-json'
+App 22796 output: }
+App 22796 output: FetchError: invalid json response body at https://video.bsmi.uz/api/auth reason: Unexpected token < in JSON at position 0
+App 22796 output:     at /home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:51220
+App 22796 output:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+App 22796 output:     at async Function.MyApp.getInitialProps (/home/steepuz/video.steep.uz/.next/server/pages/_app.js:509:24) {
+App 22796 output:   type: 'invalid-json'
+App 22796 output: }
+App 22796 output: ISAUTH false
+App 22796 output: FetchError: invalid json response body at https://video.bsmi.uz/api/auth reason: Unexpected token < in JSON at position 0
+App 22796 output:     at /home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:51220
+App 22796 output:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+App 22796 output:     at async Function.MyApp.getInitialProps (/home/steepuz/video.steep.uz/.next/server/pages/_app.js:509:24) {
+App 22796 output:   type: 'invalid-json'
+App 22796 output: }
+App 22796 output: FetchError: invalid json response body at https://video.bsmi.uz/api/videos/home reason: Unexpected token < in JSON at position 0
+App 22796 output:     at /home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:51220
+App 22796 output:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+App 22796 output:     at async getServerSideProps (/home/steepuz/video.steep.uz/.next/server/pages/index.js:303:21)
+App 22796 output:     at async Object.renderToHTML (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/server/render.js:506:20)
+App 22796 output:     at async doRender (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/server/base-server.js:708:34)
+App 22796 output:     at async cacheEntry.responseCache.get.isManualRevalidate.isManualRevalidate (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/server/base-server.js:813:28)
+App 22796 output:     at async /home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/server/response-cache/index.js:80:36 {
+App 22796 output:   type: 'invalid-json'
+App 22796 output: }
+App 22796 output: FetchError: invalid json response body at https://video.bsmi.uz/api/auth reason: Unexpected token < in JSON at position 0
+App 22796 output:     at /home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:51220
+App 22796 output:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+App 22796 output:     at async Function.MyApp.getInitialProps (/home/steepuz/video.steep.uz/.next/server/pages/_app.js:509:24) {
+App 22796 output:   type: 'invalid-json'
+App 22796 output: }
+App 22796 output: ISAUTH false
+App 22796 output: FetchError: invalid json response body at https://video.bsmi.uz/api/auth reason: Unexpected token < in JSON at position 0
+App 22796 output:     at /home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:51220
+App 22796 output:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+App 22796 output:     at async Function.MyApp.getInitialProps (/home/steepuz/video.steep.uz/.next/server/pages/_app.js:509:24) {
+App 22796 output:   type: 'invalid-json'
+App 22796 output: }
+App 22796 output: ISAUTH false
+App 22796 output: FetchError: invalid json response body at https://video.bsmi.uz/api/auth reason: Unexpected token < in JSON at position 0
+App 22796 output:     at /home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/next/dist/compiled/node-fetch/index.js:1:51220
+App 22796 output:     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+App 22796 output:     at async Function.MyApp.getInitialProps (/home/steepuz/video.steep.uz/.next/server/pages/_app.js:509:24) {
+App 22796 output:   type: 'invalid-json'
+App 22796 output: }
+App 22796 output: ISAUTH false
+App 29432 output: Warning: connect.session() MemoryStore is not
+App 29432 output: designed for a production environment, as it will leak
+App 29432 output: memory, and will not scale past a single process.
+App 29432 output: > CONNECTION DB OK
+App 29432 output: > Ready on https://video.steep.uz:3000
+App 29432 output: { success: false, message: 'Нет авторизации' }
+App 29432 output: ISAUTH false
+App 29432 output: { success: false, message: 'Нет авторизации' }
+App 29432 output: ISAUTH false
+App 29432 output: { success: false, message: 'Нет авторизации' }
+App 29432 output: ISAUTH false
+App 29432 output: { success: false, message: 'Нет авторизации' }
+App 29432 output: { success: false, message: 'Нет авторизации' }
+App 29432 output: ISAUTH false
+App 29432 output: { success: false, message: 'Нет авторизации' }
+App 29432 output: ISAUTH false
+App 29432 output: { success: false, message: 'Нет авторизации' }
+App 29432 output: ISAUTH false
+App 29432 output: wdwadwd wdwd
+App 29432 output: { success: false, message: 'Нет авторизации' }
+App 29432 output: ISAUTH false
+App 29432 output: { success: false, message: 'Нет авторизации' }
+App 29432 output: ISAUTH false
+App 29432 output: { success: false, message: 'Нет авторизации' }
+App 29432 output: ISAUTH false
+App 29432 output: { success: false, message: 'Нет авторизации' }
+App 29432 output: admin admin
+App 29432 output: {
+App 29432 output:   success: true,
+App 29432 output:   data: {
+App 29432 output:     _id: '639d73a004b34fd616c7c1c5',
+App 29432 output:     firstname: 'dwadwa',
+App 29432 output:     lastname: 'awdwa',
+App 29432 output:     patronymic: 'dwadwd',
+App 29432 output:     avatar: null,
+App 29432 output:     login: 'admin',
+App 29432 output:     password: '$2b$10$iKF/4IxuiVIXzXKvEqvjfuIKGW4Blw9PMh2gXQYD/GBysNowu.mKa',
+App 29432 output:     createdAt: '2022-12-17T07:45:36.412Z',
+App 29432 output:     updatedAt: '2022-12-17T07:45:36.412Z',
+App 29432 output:     __v: 0
+App 29432 output:   }
+App 29432 output: }
+App 29432 output: ISAUTH true
+App 29432 output: {
+App 29432 output:   success: true,
+App 29432 output:   data: {
+App 29432 output:     _id: '639d73a004b34fd616c7c1c5',
+App 29432 output:     firstname: 'dwadwa',
+App 29432 output:     lastname: 'awdwa',
+App 29432 output:     patronymic: 'dwadwd',
+App 29432 output:     avatar: null,
+App 29432 output:     login: 'admin',
+App 29432 output:     password: '$2b$10$iKF/4IxuiVIXzXKvEqvjfuIKGW4Blw9PMh2gXQYD/GBysNowu.mKa',
+App 29432 output:     createdAt: '2022-12-17T07:45:36.412Z',
+App 29432 output:     updatedAt: '2022-12-17T07:45:36.412Z',
+App 29432 output:     __v: 0
+App 29432 output:   }
+App 29432 output: }
+App 29432 output: ISAUTH true
+App 29432 output: {
+App 29432 output:   success: true,
+App 29432 output:   data: {
+App 29432 output:     _id: '639d73a004b34fd616c7c1c5',
+App 29432 output:     firstname: 'dwadwa',
+App 29432 output:     lastname: 'awdwa',
+App 29432 output:     patronymic: 'dwadwd',
+App 29432 output:     avatar: null,
+App 29432 output:     login: 'admin',
+App 29432 output:     password: '$2b$10$iKF/4IxuiVIXzXKvEqvjfuIKGW4Blw9PMh2gXQYD/GBysNowu.mKa',
+App 29432 output:     createdAt: '2022-12-17T07:45:36.412Z',
+App 29432 output:     updatedAt: '2022-12-17T07:45:36.412Z',
+App 29432 output:     __v: 0
+App 29432 output:   }
+App 29432 output: }
+App 29432 output: ISAUTH true
+App 29432 output: {
+App 29432 output:   success: true,
+App 29432 output:   data: {
+App 29432 output:     _id: '639d73a004b34fd616c7c1c5',
+App 29432 output:     firstname: 'dwadwa',
+App 29432 output:     lastname: 'awdwa',
+App 29432 output:     patronymic: 'dwadwd',
+App 29432 output:     avatar: null,
+App 29432 output:     login: 'admin',
+App 29432 output:     password: '$2b$10$iKF/4IxuiVIXzXKvEqvjfuIKGW4Blw9PMh2gXQYD/GBysNowu.mKa',
+App 29432 output:     createdAt: '2022-12-17T07:45:36.412Z',
+App 29432 output:     updatedAt: '2022-12-17T07:45:36.412Z',
+App 29432 output:     __v: 0
+App 29432 output:   }
+App 29432 output: }
+App 29432 output: {
+App 29432 output:   success: true,
+App 29432 output:   data: {
+App 29432 output:     _id: '639d73a004b34fd616c7c1c5',
+App 29432 output:     firstname: 'dwadwa',
+App 29432 output:     lastname: 'awdwa',
+App 29432 output:     patronymic: 'dwadwd',
+App 29432 output:     avatar: null,
+App 29432 output:     login: 'admin',
+App 29432 output:     password: '$2b$10$iKF/4IxuiVIXzXKvEqvjfuIKGW4Blw9PMh2gXQYD/GBysNowu.mKa',
+App 29432 output:     createdAt: '2022-12-17T07:45:36.412Z',
+App 29432 output:     updatedAt: '2022-12-17T07:45:36.412Z',
+App 29432 output:     __v: 0
+App 29432 output:   }
+App 29432 output: }
+App 29432 output: ISAUTH true
+App 29432 output: TypeError: Cannot read properties of undefined (reading 'map')
+App 29432 output:     at AddVideo (/home/steepuz/video.steep.uz/.next/server/pages/addVideo.js:301:96)
+App 29432 output:     at Wc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:68:44)
+App 29432 output:     at Zc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:70:253)
+App 29432 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:89)
+App 29432 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 29432 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 29432 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 29432 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 29432 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 29432 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 29432 output: TypeError: Cannot read properties of undefined (reading 'map')
+App 29432 output:     at AddVideo (/home/steepuz/video.steep.uz/.next/server/pages/addVideo.js:301:96)
+App 29432 output:     at Wc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:68:44)
+App 29432 output:     at Zc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:70:253)
+App 29432 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:89)
+App 29432 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 29432 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 29432 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 29432 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 29432 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 29432 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 29432 output: {
+App 29432 output:   success: true,
+App 29432 output:   data: {
+App 29432 output:     _id: '639d73a004b34fd616c7c1c5',
+App 29432 output:     firstname: 'dwadwa',
+App 29432 output:     lastname: 'awdwa',
+App 29432 output:     patronymic: 'dwadwd',
+App 29432 output:     avatar: null,
+App 29432 output:     login: 'admin',
+App 29432 output:     password: '$2b$10$iKF/4IxuiVIXzXKvEqvjfuIKGW4Blw9PMh2gXQYD/GBysNowu.mKa',
+App 29432 output:     createdAt: '2022-12-17T07:45:36.412Z',
+App 29432 output:     updatedAt: '2022-12-17T07:45:36.412Z',
+App 29432 output:     __v: 0
+App 29432 output:   }
+App 29432 output: }
+App 29432 output: ISAUTH true
+App 29432 output: {
+App 29432 output:   success: true,
+App 29432 output:   data: {
+App 29432 output:     _id: '639d73a004b34fd616c7c1c5',
+App 29432 output:     firstname: 'dwadwa',
+App 29432 output:     lastname: 'awdwa',
+App 29432 output:     patronymic: 'dwadwd',
+App 29432 output:     avatar: null,
+App 29432 output:     login: 'admin',
+App 29432 output:     password: '$2b$10$iKF/4IxuiVIXzXKvEqvjfuIKGW4Blw9PMh2gXQYD/GBysNowu.mKa',
+App 29432 output:     createdAt: '2022-12-17T07:45:36.412Z',
+App 29432 output:     updatedAt: '2022-12-17T07:45:36.412Z',
+App 29432 output:     __v: 0
+App 29432 output:   }
+App 29432 output: }
+App 29432 output: ISAUTH true
+App 29432 output: {
+App 29432 output:   success: true,
+App 29432 output:   data: {
+App 29432 output:     _id: '639d73a004b34fd616c7c1c5',
+App 29432 output:     firstname: 'dwadwa',
+App 29432 output:     lastname: 'awdwa',
+App 29432 output:     patronymic: 'dwadwd',
+App 29432 output:     avatar: null,
+App 29432 output:     login: 'admin',
+App 29432 output:     password: '$2b$10$iKF/4IxuiVIXzXKvEqvjfuIKGW4Blw9PMh2gXQYD/GBysNowu.mKa',
+App 29432 output:     createdAt: '2022-12-17T07:45:36.412Z',
+App 29432 output:     updatedAt: '2022-12-17T07:45:36.412Z',
+App 29432 output:     __v: 0
+App 29432 output:   }
+App 29432 output: }
+App 29432 output: ISAUTH true
+App 14932 output: Warning: connect.session() MemoryStore is not
+App 14932 output: designed for a production environment, as it will leak
+App 14932 output: memory, and will not scale past a single process.
+App 14932 output: > CONNECTION DB OK
+App 14932 output: > Ready on https://video.steep.uz:3000
+App 14932 output: { success: false, message: 'Нет авторизации' }
+App 14932 output: ISAUTH false
+App 14932 output: { success: false, message: 'Нет авторизации' }
+App 14932 output: {
+App 14932 output:   success: false,
+App 14932 output:   message: "Cannot read properties of null (reading '_id')"
+App 14932 output: }
+App 14932 output: ISAUTH false
+App 14932 output: {
+App 14932 output:   success: false,
+App 14932 output:   message: "Cannot read properties of null (reading '_id')"
+App 14932 output: }
+App 14932 output: ISAUTH false
+App 14932 output: {
+App 14932 output:   success: false,
+App 14932 output:   message: "Cannot read properties of null (reading '_id')"
+App 14932 output: }
+App 14932 output: ISAUTH false
+App 14932 output: admin admin
+App 14932 output: {
+App 14932 output:   success: true,
+App 14932 output:   data: {
+App 14932 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 14932 output:     firstname: 'wadwa',
+App 14932 output:     lastname: 'wad',
+App 14932 output:     patronymic: 'dwad',
+App 14932 output:     avatar: null,
+App 14932 output:     login: 'admin',
+App 14932 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 14932 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 14932 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 14932 output:     __v: 0
+App 14932 output:   }
+App 14932 output: }
+App 14932 output: {
+App 14932 output:   success: true,
+App 14932 output:   data: {
+App 14932 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 14932 output:     firstname: 'wadwa',
+App 14932 output:     lastname: 'wad',
+App 14932 output:     patronymic: 'dwad',
+App 14932 output:     avatar: null,
+App 14932 output:     login: 'admin',
+App 14932 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 14932 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 14932 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 14932 output:     __v: 0
+App 14932 output:   }
+App 14932 output: }
+App 14932 output: {
+App 14932 output:   success: true,
+App 14932 output:   data: {
+App 14932 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 14932 output:     firstname: 'wadwa',
+App 14932 output:     lastname: 'wad',
+App 14932 output:     patronymic: 'dwad',
+App 14932 output:     avatar: null,
+App 14932 output:     login: 'admin',
+App 14932 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 14932 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 14932 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 14932 output:     __v: 0
+App 14932 output:   }
+App 14932 output: }
+App 14932 output: {
+App 14932 output:   success: true,
+App 14932 output:   data: {
+App 14932 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 14932 output:     firstname: 'wadwa',
+App 14932 output:     lastname: 'wad',
+App 14932 output:     patronymic: 'dwad',
+App 14932 output:     avatar: null,
+App 14932 output:     login: 'admin',
+App 14932 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 14932 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 14932 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 14932 output:     __v: 0
+App 14932 output:   }
+App 14932 output: }
+App 14932 output: ISAUTH true
+App 14932 output: {
+App 14932 output:   success: true,
+App 14932 output:   data: {
+App 14932 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 14932 output:     firstname: 'wadwa',
+App 14932 output:     lastname: 'wad',
+App 14932 output:     patronymic: 'dwad',
+App 14932 output:     avatar: null,
+App 14932 output:     login: 'admin',
+App 14932 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 14932 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 14932 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 14932 output:     __v: 0
+App 14932 output:   }
+App 14932 output: }
+App 14932 output: ISAUTH true
+App 14932 output: {
+App 14932 output:   success: true,
+App 14932 output:   data: {
+App 14932 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 14932 output:     firstname: 'wadwa',
+App 14932 output:     lastname: 'wad',
+App 14932 output:     patronymic: 'dwad',
+App 14932 output:     avatar: null,
+App 14932 output:     login: 'admin',
+App 14932 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 14932 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 14932 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 14932 output:     __v: 0
+App 14932 output:   }
+App 14932 output: }
+App 14932 output: ISAUTH true
+App 14932 output: TypeError: Cannot read properties of undefined (reading 'map')
+App 14932 output:     at AddVideo (/home/steepuz/video.steep.uz/.next/server/pages/addVideo.js:301:96)
+App 14932 output:     at Wc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:68:44)
+App 14932 output:     at Zc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:70:253)
+App 14932 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:89)
+App 14932 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 14932 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 14932 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 14932 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 14932 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 14932 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 14932 output: TypeError: Cannot read properties of undefined (reading 'map')
+App 14932 output:     at AddVideo (/home/steepuz/video.steep.uz/.next/server/pages/addVideo.js:301:96)
+App 14932 output:     at Wc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:68:44)
+App 14932 output:     at Zc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:70:253)
+App 14932 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:89)
+App 14932 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 14932 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 14932 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 14932 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 14932 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 14932 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 14932 output: {
+App 14932 output:   success: true,
+App 14932 output:   data: {
+App 14932 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 14932 output:     firstname: 'wadwa',
+App 14932 output:     lastname: 'wad',
+App 14932 output:     patronymic: 'dwad',
+App 14932 output:     avatar: null,
+App 14932 output:     login: 'admin',
+App 14932 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 14932 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 14932 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 14932 output:     __v: 0
+App 14932 output:   }
+App 14932 output: }
+App 14932 output: ISAUTH true
+App 14932 output: {
+App 14932 output:   success: true,
+App 14932 output:   data: {
+App 14932 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 14932 output:     firstname: 'wadwa',
+App 14932 output:     lastname: 'wad',
+App 14932 output:     patronymic: 'dwad',
+App 14932 output:     avatar: null,
+App 14932 output:     login: 'admin',
+App 14932 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 14932 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 14932 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 14932 output:     __v: 0
+App 14932 output:   }
+App 14932 output: }
+App 14932 output: ISAUTH true
+App 14932 output: {
+App 14932 output:   success: true,
+App 14932 output:   data: {
+App 14932 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 14932 output:     firstname: 'wadwa',
+App 14932 output:     lastname: 'wad',
+App 14932 output:     patronymic: 'dwad',
+App 14932 output:     avatar: null,
+App 14932 output:     login: 'admin',
+App 14932 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 14932 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 14932 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 14932 output:     __v: 0
+App 14932 output:   }
+App 14932 output: }
+App 14932 output: ISAUTH true
+App 28367 output: Warning: connect.session() MemoryStore is not
+App 28367 output: designed for a production environment, as it will leak
+App 28367 output: memory, and will not scale past a single process.
+App 28367 output: > CONNECTION DB OK
+App 28367 output: > Ready on https://video.steep.uz:3000
+App 25614 output: Warning: connect.session() MemoryStore is not
+App 25614 output: designed for a production environment, as it will leak
+App 25614 output: memory, and will not scale past a single process.
+App 25614 output: > CONNECTION DB OK
+App 25614 output: > Ready on https://video.steep.uz:3000
+App 25614 output: {
+App 25614 output:   success: true,
+App 25614 output:   data: {
+App 25614 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 25614 output:     firstname: 'wadwa',
+App 25614 output:     lastname: 'wad',
+App 25614 output:     patronymic: 'dwad',
+App 25614 output:     avatar: null,
+App 25614 output:     login: 'admin',
+App 25614 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 25614 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 25614 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 25614 output:     __v: 0
+App 25614 output:   }
+App 25614 output: }
+App 25614 output: AUTHORS {
+App 25614 output:   authors: [
+App 25614 output:     {
+App 25614 output:       _id: '639d75a3e2735f999f3d1bb3',
+App 25614 output:       firstname: 'wadwa',
+App 25614 output:       lastname: 'wad',
+App 25614 output:       patronymic: 'dwad',
+App 25614 output:       avatar: null,
+App 25614 output:       login: 'admin',
+App 25614 output:       password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 25614 output:       createdAt: '2022-12-17T07:54:11.276Z',
+App 25614 output:       updatedAt: '2022-12-17T07:54:11.276Z',
+App 25614 output:       __v: 0
+App 25614 output:     }
+App 25614 output:   ],
+App 25614 output:   count: 1
+App 25614 output: }
+App 25614 output: ISAUTH true
+App 25614 output: {
+App 25614 output:   success: true,
+App 25614 output:   data: {
+App 25614 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 25614 output:     firstname: 'wadwa',
+App 25614 output:     lastname: 'wad',
+App 25614 output:     patronymic: 'dwad',
+App 25614 output:     avatar: null,
+App 25614 output:     login: 'admin',
+App 25614 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 25614 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 25614 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 25614 output:     __v: 0
+App 25614 output:   }
+App 25614 output: }
+App 25614 output: ISAUTH true
+App 25614 output: {
+App 25614 output:   success: true,
+App 25614 output:   data: {
+App 25614 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 25614 output:     firstname: 'wadwa',
+App 25614 output:     lastname: 'wad',
+App 25614 output:     patronymic: 'dwad',
+App 25614 output:     avatar: null,
+App 25614 output:     login: 'admin',
+App 25614 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 25614 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 25614 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 25614 output:     __v: 0
+App 25614 output:   }
+App 25614 output: }
+App 25614 output: ISAUTH true
+App 25614 output: {
+App 25614 output:   success: true,
+App 25614 output:   data: {
+App 25614 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 25614 output:     firstname: 'wadwa',
+App 25614 output:     lastname: 'wad',
+App 25614 output:     patronymic: 'dwad',
+App 25614 output:     avatar: null,
+App 25614 output:     login: 'admin',
+App 25614 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 25614 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 25614 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 25614 output:     __v: 0
+App 25614 output:   }
+App 25614 output: }
+App 25614 output: {
+App 25614 output:   success: true,
+App 25614 output:   data: {
+App 25614 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 25614 output:     firstname: 'wadwa',
+App 25614 output:     lastname: 'wad',
+App 25614 output:     patronymic: 'dwad',
+App 25614 output:     avatar: null,
+App 25614 output:     login: 'admin',
+App 25614 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 25614 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 25614 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 25614 output:     __v: 0
+App 25614 output:   }
+App 25614 output: }
+App 25614 output: ISAUTH true
+App 25614 output: TypeError: Cannot read properties of undefined (reading 'map')
+App 25614 output:     at AddVideo (/home/steepuz/video.steep.uz/.next/server/pages/addVideo.js:301:96)
+App 25614 output:     at Wc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:68:44)
+App 25614 output:     at Zc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:70:253)
+App 25614 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:89)
+App 25614 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 25614 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 25614 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 25614 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 25614 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 25614 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 25614 output: TypeError: Cannot read properties of undefined (reading 'map')
+App 25614 output:     at AddVideo (/home/steepuz/video.steep.uz/.next/server/pages/addVideo.js:301:96)
+App 25614 output:     at Wc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:68:44)
+App 25614 output:     at Zc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:70:253)
+App 25614 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:89)
+App 25614 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 25614 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 25614 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 25614 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 25614 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 25614 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 25614 output: {
+App 25614 output:   success: true,
+App 25614 output:   data: {
+App 25614 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 25614 output:     firstname: 'wadwa',
+App 25614 output:     lastname: 'wad',
+App 25614 output:     patronymic: 'dwad',
+App 25614 output:     avatar: null,
+App 25614 output:     login: 'admin',
+App 25614 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 25614 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 25614 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 25614 output:     __v: 0
+App 25614 output:   }
+App 25614 output: }
+App 25614 output: ISAUTH true
+App 25614 output: {
+App 25614 output:   success: true,
+App 25614 output:   data: {
+App 25614 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 25614 output:     firstname: 'wadwa',
+App 25614 output:     lastname: 'wad',
+App 25614 output:     patronymic: 'dwad',
+App 25614 output:     avatar: null,
+App 25614 output:     login: 'admin',
+App 25614 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 25614 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 25614 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 25614 output:     __v: 0
+App 25614 output:   }
+App 25614 output: }
+App 25614 output: ISAUTH true
+App 25614 output: {
+App 25614 output:   success: true,
+App 25614 output:   data: {
+App 25614 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 25614 output:     firstname: 'wadwa',
+App 25614 output:     lastname: 'wad',
+App 25614 output:     patronymic: 'dwad',
+App 25614 output:     avatar: null,
+App 25614 output:     login: 'admin',
+App 25614 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 25614 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 25614 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 25614 output:     __v: 0
+App 25614 output:   }
+App 25614 output: }
+App 25614 output: ISAUTH true
+App 25614 output: {
+App 25614 output:   success: true,
+App 25614 output:   data: {
+App 25614 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 25614 output:     firstname: 'wadwa',
+App 25614 output:     lastname: 'wad',
+App 25614 output:     patronymic: 'dwad',
+App 25614 output:     avatar: null,
+App 25614 output:     login: 'admin',
+App 25614 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 25614 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 25614 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 25614 output:     __v: 0
+App 25614 output:   }
+App 25614 output: }
+App 25614 output: ISAUTH true
+App 25614 output: TypeError: Cannot read properties of undefined (reading 'map')
+App 25614 output:     at AddVideo (/home/steepuz/video.steep.uz/.next/server/pages/addVideo.js:301:96)
+App 25614 output:     at Wc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:68:44)
+App 25614 output:     at Zc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:70:253)
+App 25614 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:89)
+App 25614 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 25614 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 25614 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 25614 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 25614 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 25614 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 25614 output: TypeError: Cannot read properties of undefined (reading 'map')
+App 25614 output:     at AddVideo (/home/steepuz/video.steep.uz/.next/server/pages/addVideo.js:301:96)
+App 25614 output:     at Wc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:68:44)
+App 25614 output:     at Zc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:70:253)
+App 25614 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:89)
+App 25614 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 25614 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 25614 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 25614 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 25614 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 25614 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 25614 output: {
+App 25614 output:   success: true,
+App 25614 output:   data: {
+App 25614 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 25614 output:     firstname: 'wadwa',
+App 25614 output:     lastname: 'wad',
+App 25614 output:     patronymic: 'dwad',
+App 25614 output:     avatar: null,
+App 25614 output:     login: 'admin',
+App 25614 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 25614 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 25614 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 25614 output:     __v: 0
+App 25614 output:   }
+App 25614 output: }
+App 25614 output: ISAUTH true
+App 25614 output: {
+App 25614 output:   success: true,
+App 25614 output:   data: {
+App 25614 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 25614 output:     firstname: 'wadwa',
+App 25614 output:     lastname: 'wad',
+App 25614 output:     patronymic: 'dwad',
+App 25614 output:     avatar: null,
+App 25614 output:     login: 'admin',
+App 25614 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 25614 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 25614 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 25614 output:     __v: 0
+App 25614 output:   }
+App 25614 output: }
+App 25614 output: ISAUTH true
+App 25614 output: {
+App 25614 output:   success: true,
+App 25614 output:   data: {
+App 25614 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 25614 output:     firstname: 'wadwa',
+App 25614 output:     lastname: 'wad',
+App 25614 output:     patronymic: 'dwad',
+App 25614 output:     avatar: null,
+App 25614 output:     login: 'admin',
+App 25614 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 25614 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 25614 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 25614 output:     __v: 0
+App 25614 output:   }
+App 25614 output: }
+App 25614 output: ISAUTH true
+App 62834 output: Warning: connect.session() MemoryStore is not
+App 62834 output: designed for a production environment, as it will leak
+App 62834 output: memory, and will not scale past a single process.
+App 62834 output: > CONNECTION DB OK
+App 62834 output: > Ready on https://video.steep.uz:3000
+App 62834 output: {
+App 62834 output:   success: true,
+App 62834 output:   data: {
+App 62834 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 62834 output:     firstname: 'wadwa',
+App 62834 output:     lastname: 'wad',
+App 62834 output:     patronymic: 'dwad',
+App 62834 output:     avatar: null,
+App 62834 output:     login: 'admin',
+App 62834 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 62834 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 62834 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 62834 output:     __v: 0
+App 62834 output:   }
+App 62834 output: }
+App 62834 output: ISAUTH true
+App 62834 output: {
+App 62834 output:   success: true,
+App 62834 output:   data: {
+App 62834 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 62834 output:     firstname: 'wadwa',
+App 62834 output:     lastname: 'wad',
+App 62834 output:     patronymic: 'dwad',
+App 62834 output:     avatar: null,
+App 62834 output:     login: 'admin',
+App 62834 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 62834 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 62834 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 62834 output:     __v: 0
+App 62834 output:   }
+App 62834 output: }
+App 62834 output: ISAUTH true
+App 62834 output: {
+App 62834 output:   success: true,
+App 62834 output:   data: {
+App 62834 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 62834 output:     firstname: 'wadwa',
+App 62834 output:     lastname: 'wad',
+App 62834 output:     patronymic: 'dwad',
+App 62834 output:     avatar: null,
+App 62834 output:     login: 'admin',
+App 62834 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 62834 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 62834 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 62834 output:     __v: 0
+App 62834 output:   }
+App 62834 output: }
+App 62834 output: ISAUTH true
+App 62834 output: {
+App 62834 output:   success: true,
+App 62834 output:   data: {
+App 62834 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 62834 output:     firstname: 'wadwa',
+App 62834 output:     lastname: 'wad',
+App 62834 output:     patronymic: 'dwad',
+App 62834 output:     avatar: null,
+App 62834 output:     login: 'admin',
+App 62834 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 62834 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 62834 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 62834 output:     __v: 0
+App 62834 output:   }
+App 62834 output: }
+App 62834 output: ISAUTH true
+App 62834 output: {
+App 62834 output:   success: true,
+App 62834 output:   data: {
+App 62834 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 62834 output:     firstname: 'wadwa',
+App 62834 output:     lastname: 'wad',
+App 62834 output:     patronymic: 'dwad',
+App 62834 output:     avatar: null,
+App 62834 output:     login: 'admin',
+App 62834 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 62834 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 62834 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 62834 output:     __v: 0
+App 62834 output:   }
+App 62834 output: }
+App 62834 output: PLAYLIST {
+App 62834 output:   error: { code: 404, message: 'Channel not found.', errors: [ [Object] ] }
+App 62834 output: }
+App 62834 output: AUTHORS { success: true, data: { authors: [ [Object] ], count: 1 } }
+App 51446 output: Warning: connect.session() MemoryStore is not
+App 51446 output: designed for a production environment, as it will leak
+App 51446 output: memory, and will not scale past a single process.
+App 51446 output: > CONNECTION DB OK
+App 51446 output: > Ready on https://video.steep.uz:3000
+App 51446 output: {
+App 51446 output:   success: true,
+App 51446 output:   data: {
+App 51446 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 51446 output:     firstname: 'wadwa',
+App 51446 output:     lastname: 'wad',
+App 51446 output:     patronymic: 'dwad',
+App 51446 output:     avatar: null,
+App 51446 output:     login: 'admin',
+App 51446 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 51446 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 51446 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 51446 output:     __v: 0
+App 51446 output:   }
+App 51446 output: }
+App 51446 output: {
+App 51446 output:   success: true,
+App 51446 output:   data: {
+App 51446 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 51446 output:     firstname: 'wadwa',
+App 51446 output:     lastname: 'wad',
+App 51446 output:     patronymic: 'dwad',
+App 51446 output:     avatar: null,
+App 51446 output:     login: 'admin',
+App 51446 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 51446 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 51446 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 51446 output:     __v: 0
+App 51446 output:   }
+App 51446 output: }
+App 51446 output: PLAYLIST {
+App 51446 output:   error: { code: 404, message: 'Channel not found.', errors: [ [Object] ] }
+App 51446 output: }
+App 51446 output: AUTHORS { success: true, data: { authors: [ [Object] ], count: 1 } }
+App 51446 output: {
+App 51446 output:   success: true,
+App 51446 output:   data: {
+App 51446 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 51446 output:     firstname: 'wadwa',
+App 51446 output:     lastname: 'wad',
+App 51446 output:     patronymic: 'dwad',
+App 51446 output:     avatar: null,
+App 51446 output:     login: 'admin',
+App 51446 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 51446 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 51446 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 51446 output:     __v: 0
+App 51446 output:   }
+App 51446 output: }
+App 51446 output: PLAYLIST {
+App 51446 output:   error: { code: 404, message: 'Channel not found.', errors: [ [Object] ] }
+App 51446 output: }
+App 51446 output: AUTHORS { success: true, data: { authors: [ [Object] ], count: 1 } }
+App 51446 output: ISAUTH true
+App 51446 output: TypeError: Cannot read properties of undefined (reading 'map')
+App 51446 output:     at AddVideo (/home/steepuz/video.steep.uz/.next/server/pages/addVideo.js:301:96)
+App 51446 output:     at Wc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:68:44)
+App 51446 output:     at Zc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:70:253)
+App 51446 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:89)
+App 51446 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 51446 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 51446 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 51446 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 51446 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 51446 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 51446 output: TypeError: Cannot read properties of undefined (reading 'map')
+App 51446 output:     at AddVideo (/home/steepuz/video.steep.uz/.next/server/pages/addVideo.js:301:96)
+App 51446 output:     at Wc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:68:44)
+App 51446 output:     at Zc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:70:253)
+App 51446 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:89)
+App 51446 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 51446 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 51446 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 51446 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 51446 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 51446 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 51446 output: {
+App 51446 output:   success: true,
+App 51446 output:   data: {
+App 51446 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 51446 output:     firstname: 'wadwa',
+App 51446 output:     lastname: 'wad',
+App 51446 output:     patronymic: 'dwad',
+App 51446 output:     avatar: null,
+App 51446 output:     login: 'admin',
+App 51446 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 51446 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 51446 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 51446 output:     __v: 0
+App 51446 output:   }
+App 51446 output: }
+App 51446 output: ISAUTH true
+App 51446 output: {
+App 51446 output:   success: true,
+App 51446 output:   data: {
+App 51446 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 51446 output:     firstname: 'wadwa',
+App 51446 output:     lastname: 'wad',
+App 51446 output:     patronymic: 'dwad',
+App 51446 output:     avatar: null,
+App 51446 output:     login: 'admin',
+App 51446 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 51446 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 51446 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 51446 output:     __v: 0
+App 51446 output:   }
+App 51446 output: }
+App 51446 output: ISAUTH true
+App 51446 output: {
+App 51446 output:   success: true,
+App 51446 output:   data: {
+App 51446 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 51446 output:     firstname: 'wadwa',
+App 51446 output:     lastname: 'wad',
+App 51446 output:     patronymic: 'dwad',
+App 51446 output:     avatar: null,
+App 51446 output:     login: 'admin',
+App 51446 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 51446 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 51446 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 51446 output:     __v: 0
+App 51446 output:   }
+App 51446 output: }
+App 51446 output: ISAUTH true
+App 51446 output: {
+App 51446 output:   success: true,
+App 51446 output:   data: {
+App 51446 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 51446 output:     firstname: 'wadwa',
+App 51446 output:     lastname: 'wad',
+App 51446 output:     patronymic: 'dwad',
+App 51446 output:     avatar: null,
+App 51446 output:     login: 'admin',
+App 51446 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 51446 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 51446 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 51446 output:     __v: 0
+App 51446 output:   }
+App 51446 output: }
+App 51446 output: PLAYLIST {
+App 51446 output:   error: { code: 404, message: 'Channel not found.', errors: [ [Object] ] }
+App 51446 output: }
+App 51446 output: AUTHORS { success: true, data: { authors: [ [Object] ], count: 1 } }
+App 51446 output: ISAUTH true
+App 51446 output: TypeError: Cannot read properties of undefined (reading 'map')
+App 51446 output:     at AddVideo (/home/steepuz/video.steep.uz/.next/server/pages/addVideo.js:301:96)
+App 51446 output:     at Wc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:68:44)
+App 51446 output:     at Zc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:70:253)
+App 51446 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:89)
+App 51446 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 51446 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 51446 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 51446 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 51446 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 51446 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 51446 output: TypeError: Cannot read properties of undefined (reading 'map')
+App 51446 output:     at AddVideo (/home/steepuz/video.steep.uz/.next/server/pages/addVideo.js:301:96)
+App 51446 output:     at Wc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:68:44)
+App 51446 output:     at Zc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:70:253)
+App 51446 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:89)
+App 51446 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 51446 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 51446 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 51446 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 51446 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 51446 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 51446 output: {
+App 51446 output:   success: true,
+App 51446 output:   data: {
+App 51446 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 51446 output:     firstname: 'wadwa',
+App 51446 output:     lastname: 'wad',
+App 51446 output:     patronymic: 'dwad',
+App 51446 output:     avatar: null,
+App 51446 output:     login: 'admin',
+App 51446 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 51446 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 51446 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 51446 output:     __v: 0
+App 51446 output:   }
+App 51446 output: }
+App 51446 output: ISAUTH true
+App 51446 output: {
+App 51446 output:   success: true,
+App 51446 output:   data: {
+App 51446 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 51446 output:     firstname: 'wadwa',
+App 51446 output:     lastname: 'wad',
+App 51446 output:     patronymic: 'dwad',
+App 51446 output:     avatar: null,
+App 51446 output:     login: 'admin',
+App 51446 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 51446 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 51446 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 51446 output:     __v: 0
+App 51446 output:   }
+App 51446 output: }
+App 51446 output: ISAUTH true
+App 51446 output: {
+App 51446 output:   success: true,
+App 51446 output:   data: {
+App 51446 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 51446 output:     firstname: 'wadwa',
+App 51446 output:     lastname: 'wad',
+App 51446 output:     patronymic: 'dwad',
+App 51446 output:     avatar: null,
+App 51446 output:     login: 'admin',
+App 51446 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 51446 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 51446 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 51446 output:     __v: 0
+App 51446 output:   }
+App 51446 output: }
+App 51446 output: ISAUTH true
+App 30707 output: Warning: connect.session() MemoryStore is not
+App 30707 output: designed for a production environment, as it will leak
+App 30707 output: memory, and will not scale past a single process.
+App 30707 output: > CONNECTION DB OK
+App 30707 output: > Ready on https://video.steep.uz:3000
+App 30707 output: {
+App 30707 output:   success: true,
+App 30707 output:   data: {
+App 30707 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 30707 output:     firstname: 'wadwa',
+App 30707 output:     lastname: 'wad',
+App 30707 output:     patronymic: 'dwad',
+App 30707 output:     avatar: null,
+App 30707 output:     login: 'admin',
+App 30707 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 30707 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 30707 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 30707 output:     __v: 0
+App 30707 output:   }
+App 30707 output: }
+App 30707 output: PLAYLIST https://www.googleapis.com/youtube/v3 "UC-tY8dG0KoYjoOyJHnRe5Jw" AIzaSyCXmjHxoTyu708zREFt0rCkuJcc6s4mVTQ
+App 30707 output: PLAYLIST {
+App 30707 output:   error: { code: 404, message: 'Channel not found.', errors: [ [Object] ] }
+App 30707 output: }
+App 30707 output: ISAUTH true
+App 30707 output: TypeError: Cannot read properties of undefined (reading 'map')
+App 30707 output:     at AddVideo (/home/steepuz/video.steep.uz/.next/server/pages/addVideo.js:301:96)
+App 30707 output:     at Wc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:68:44)
+App 30707 output:     at Zc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:70:253)
+App 30707 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:89)
+App 30707 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 30707 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 30707 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 30707 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 30707 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 30707 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 30707 output: TypeError: Cannot read properties of undefined (reading 'map')
+App 30707 output:     at AddVideo (/home/steepuz/video.steep.uz/.next/server/pages/addVideo.js:301:96)
+App 30707 output:     at Wc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:68:44)
+App 30707 output:     at Zc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:70:253)
+App 30707 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:89)
+App 30707 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 30707 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 30707 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 30707 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 30707 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 30707 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 30707 output: {
+App 30707 output:   success: true,
+App 30707 output:   data: {
+App 30707 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 30707 output:     firstname: 'wadwa',
+App 30707 output:     lastname: 'wad',
+App 30707 output:     patronymic: 'dwad',
+App 30707 output:     avatar: null,
+App 30707 output:     login: 'admin',
+App 30707 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 30707 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 30707 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 30707 output:     __v: 0
+App 30707 output:   }
+App 30707 output: }
+App 30707 output: ISAUTH true
+App 30707 output: {
+App 30707 output:   success: true,
+App 30707 output:   data: {
+App 30707 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 30707 output:     firstname: 'wadwa',
+App 30707 output:     lastname: 'wad',
+App 30707 output:     patronymic: 'dwad',
+App 30707 output:     avatar: null,
+App 30707 output:     login: 'admin',
+App 30707 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 30707 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 30707 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 30707 output:     __v: 0
+App 30707 output:   }
+App 30707 output: }
+App 30707 output: ISAUTH true
+App 30707 output: {
+App 30707 output:   success: true,
+App 30707 output:   data: {
+App 30707 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 30707 output:     firstname: 'wadwa',
+App 30707 output:     lastname: 'wad',
+App 30707 output:     patronymic: 'dwad',
+App 30707 output:     avatar: null,
+App 30707 output:     login: 'admin',
+App 30707 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 30707 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 30707 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 30707 output:     __v: 0
+App 30707 output:   }
+App 30707 output: }
+App 30707 output: ISAUTH true
+App 1519 output: Warning: connect.session() MemoryStore is not
+App 1519 output: designed for a production environment, as it will leak
+App 1519 output: memory, and will not scale past a single process.
+App 1519 output: > CONNECTION DB OK
+App 1519 output: > Ready on https://video.steep.uz:3000
+App 1519 output: {
+App 1519 output:   success: true,
+App 1519 output:   data: {
+App 1519 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 1519 output:     firstname: 'wadwa',
+App 1519 output:     lastname: 'wad',
+App 1519 output:     patronymic: 'dwad',
+App 1519 output:     avatar: null,
+App 1519 output:     login: 'admin',
+App 1519 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 1519 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 1519 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 1519 output:     __v: 0
+App 1519 output:   }
+App 1519 output: }
+App 1519 output: PLAYLIST https://www.googleapis.com/youtube/v3 "UC-tY8dG0KoYjoOyJHnRe5Jw" AIzaSyCXmjHxoTyu708zREFt0rCkuJcc6s4mVTQ
+App 1519 output: PLAYLIST {
+App 1519 output:   error: { code: 404, message: 'Channel not found.', errors: [ [Object] ] }
+App 1519 output: }
+App 1519 output: ISAUTH true
+App 1519 output: TypeError: Cannot read properties of undefined (reading 'map')
+App 1519 output:     at AddVideo (/home/steepuz/video.steep.uz/.next/server/pages/addVideo.js:301:96)
+App 1519 output:     at Wc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:68:44)
+App 1519 output:     at Zc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:70:253)
+App 1519 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:89)
+App 1519 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 1519 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 1519 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 1519 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 1519 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 1519 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 1519 output: TypeError: Cannot read properties of undefined (reading 'map')
+App 1519 output:     at AddVideo (/home/steepuz/video.steep.uz/.next/server/pages/addVideo.js:301:96)
+App 1519 output:     at Wc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:68:44)
+App 1519 output:     at Zc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:70:253)
+App 1519 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:89)
+App 1519 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 1519 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 1519 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 1519 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 1519 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 1519 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 1519 output: {
+App 1519 output:   success: true,
+App 1519 output:   data: {
+App 1519 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 1519 output:     firstname: 'wadwa',
+App 1519 output:     lastname: 'wad',
+App 1519 output:     patronymic: 'dwad',
+App 1519 output:     avatar: null,
+App 1519 output:     login: 'admin',
+App 1519 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 1519 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 1519 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 1519 output:     __v: 0
+App 1519 output:   }
+App 1519 output: }
+App 1519 output: ISAUTH true
+App 1519 output: {
+App 1519 output:   success: true,
+App 1519 output:   data: {
+App 1519 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 1519 output:     firstname: 'wadwa',
+App 1519 output:     lastname: 'wad',
+App 1519 output:     patronymic: 'dwad',
+App 1519 output:     avatar: null,
+App 1519 output:     login: 'admin',
+App 1519 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 1519 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 1519 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 1519 output:     __v: 0
+App 1519 output:   }
+App 1519 output: }
+App 1519 output: ISAUTH true
+App 1519 output: {
+App 1519 output:   success: true,
+App 1519 output:   data: {
+App 1519 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 1519 output:     firstname: 'wadwa',
+App 1519 output:     lastname: 'wad',
+App 1519 output:     patronymic: 'dwad',
+App 1519 output:     avatar: null,
+App 1519 output:     login: 'admin',
+App 1519 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 1519 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 1519 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 1519 output:     __v: 0
+App 1519 output:   }
+App 1519 output: }
+App 1519 output: ISAUTH true
+App 1519 output: {
+App 1519 output:   success: true,
+App 1519 output:   data: {
+App 1519 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 1519 output:     firstname: 'wadwa',
+App 1519 output:     lastname: 'wad',
+App 1519 output:     patronymic: 'dwad',
+App 1519 output:     avatar: null,
+App 1519 output:     login: 'admin',
+App 1519 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 1519 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 1519 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 1519 output:     __v: 0
+App 1519 output:   }
+App 1519 output: }
+App 1519 output: {
+App 1519 output:   success: true,
+App 1519 output:   data: {
+App 1519 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 1519 output:     firstname: 'wadwa',
+App 1519 output:     lastname: 'wad',
+App 1519 output:     patronymic: 'dwad',
+App 1519 output:     avatar: null,
+App 1519 output:     login: 'admin',
+App 1519 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 1519 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 1519 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 1519 output:     __v: 0
+App 1519 output:   }
+App 1519 output: }
+App 1519 output: PLAYLIST https://www.googleapis.com/youtube/v3 "UC-tY8dG0KoYjoOyJHnRe5Jw" AIzaSyCXmjHxoTyu708zREFt0rCkuJcc6s4mVTQ
+App 1519 output: PLAYLIST {
+App 1519 output:   error: { code: 404, message: 'Channel not found.', errors: [ [Object] ] }
+App 1519 output: }
+App 14096 output: Warning: connect.session() MemoryStore is not
+App 14096 output: designed for a production environment, as it will leak
+App 14096 output: memory, and will not scale past a single process.
+App 14096 output: > CONNECTION DB OK
+App 14096 output: > Ready on https://video.steep.uz:3000
+App 14096 output: {
+App 14096 output:   success: true,
+App 14096 output:   data: {
+App 14096 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 14096 output:     firstname: 'wadwa',
+App 14096 output:     lastname: 'wad',
+App 14096 output:     patronymic: 'dwad',
+App 14096 output:     avatar: null,
+App 14096 output:     login: 'admin',
+App 14096 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 14096 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 14096 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 14096 output:     __v: 0
+App 14096 output:   }
+App 14096 output: }
+App 14096 output: PLAYLIST https://www.googleapis.com/youtube/v3 "UC-tY8dG0KoYjoOyJHnRe5Jw" AIzaSyCXmjHxoTyu708zREFt0rCkuJcc6s4mVTQ
+App 14096 output: PLAYLIST {
+App 14096 output:   error: { code: 404, message: 'Channel not found.', errors: [ [Object] ] }
+App 14096 output: }
+App 14096 output: ISAUTH true
+App 14096 output: TypeError: Cannot read properties of undefined (reading 'map')
+App 14096 output:     at AddVideo (/home/steepuz/video.steep.uz/.next/server/pages/addVideo.js:301:96)
+App 14096 output:     at Wc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:68:44)
+App 14096 output:     at Zc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:70:253)
+App 14096 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:89)
+App 14096 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 14096 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 14096 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 14096 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 14096 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 14096 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 14096 output: TypeError: Cannot read properties of undefined (reading 'map')
+App 14096 output:     at AddVideo (/home/steepuz/video.steep.uz/.next/server/pages/addVideo.js:301:96)
+App 14096 output:     at Wc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:68:44)
+App 14096 output:     at Zc (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:70:253)
+App 14096 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:89)
+App 14096 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 14096 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 14096 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 14096 output:     at $c (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:78:98)
+App 14096 output:     at bd (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:77:404)
+App 14096 output:     at Z (/home/steepuz/nodevenv/video.steep.uz/16/lib/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js:76:217)
+App 14096 output: {
+App 14096 output:   success: true,
+App 14096 output:   data: {
+App 14096 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 14096 output:     firstname: 'wadwa',
+App 14096 output:     lastname: 'wad',
+App 14096 output:     patronymic: 'dwad',
+App 14096 output:     avatar: null,
+App 14096 output:     login: 'admin',
+App 14096 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 14096 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 14096 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 14096 output:     __v: 0
+App 14096 output:   }
+App 14096 output: }
+App 14096 output: ISAUTH true
+App 14096 output: {
+App 14096 output:   success: true,
+App 14096 output:   data: {
+App 14096 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 14096 output:     firstname: 'wadwa',
+App 14096 output:     lastname: 'wad',
+App 14096 output:     patronymic: 'dwad',
+App 14096 output:     avatar: null,
+App 14096 output:     login: 'admin',
+App 14096 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 14096 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 14096 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 14096 output:     __v: 0
+App 14096 output:   }
+App 14096 output: }
+App 14096 output: ISAUTH true
+App 14096 output: {
+App 14096 output:   success: true,
+App 14096 output:   data: {
+App 14096 output:     _id: '639d75a3e2735f999f3d1bb3',
+App 14096 output:     firstname: 'wadwa',
+App 14096 output:     lastname: 'wad',
+App 14096 output:     patronymic: 'dwad',
+App 14096 output:     avatar: null,
+App 14096 output:     login: 'admin',
+App 14096 output:     password: '$2b$10$FK82DLwm76gXyxkmSO4J6OaFprA.CCvwiouyI1mLC.XIfkZ3tpjdC',
+App 14096 output:     createdAt: '2022-12-17T07:54:11.276Z',
+App 14096 output:     updatedAt: '2022-12-17T07:54:11.276Z',
+App 14096 output:     __v: 0
+App 14096 output:   }
+App 14096 output: }
+App 14096 output: ISAUTH true
+App 53403 output: Warning: connect.session() MemoryStore is not
+App 53403 output: designed for a production environment, as it will leak
+App 53403 output: memory, and will not scale past a single process.
+App 53403 output: > CONNECTION DB OK
+App 53403 output: > Ready on https://video.steep.uz:3000
